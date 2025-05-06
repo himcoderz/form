@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="css/registration.css"/>
+    </head>
+    <body>
+        <form>
+            <h3>REGISTRATION FORM</h3>
+            <span>&times;</span>
+            <span id="b"></span>
+            <input type="text" placeholder="Full Name" autocomplete="off" required/><br>
+            <input type="text" placeholder="Father Name" autocomplete="off" required/><br>
+            <input type="email" placeholder="Email" autocomplete="off" required/><br>
+            <input type="phone" placeholder="Mobile" autocomplete="off" required/><br>
+            <input type="text" minlength="8" placeholder="Username" autocomplete="off" required/><br>
+            <input type="password" minlength="8" placeholder="Password" autocomplete="off" required/><br>
+            <select required>
+                <option>---Select Your Course---</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JS</option>
+                <option>JQUERY</option>
+                <option>PHP</option>
+            </select><br>
+            <select required>
+                <option>---Select Your Gender---</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br>
+            <textarea cols="21" rows="2" placeholder="Address" autocomplete="off" required></textarea><br>
+            <input type="submit" value="Submit"/>
+            <p id="login-line">Already have an account? <a href="login.html">Login here.</a></p>
+        </form>
+    </body>
+</html>
